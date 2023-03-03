@@ -114,6 +114,7 @@ public class Cart {
             );
             input = scanner.nextLine();
             if(input.equals("2")) ((Hamburger) product).setBurgerSet(true);
+            else ((Hamburger) product).setBurgerSet(false);
         }
         else if (product instanceof Side) {
             System.out.println("케첩은 몇개가 필요하신가요?");
